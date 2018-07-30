@@ -1,0 +1,105 @@
+
+
+syntax: regexp
+
+.resharper.user
+_ReSharper
+ConfigFiles/*
+configFiles/Caselle.AppSecurity.net35CaselleIncInhouseuseonly001.Dat
+configFiles/Caselle.Opts.Org.Development.xml
+configFiles/Caselle.Opts.Org.Developmentistehr0x0rz.xml.invalid
+configFiles/DBTestConfig.xml
+configFiles/defaultPrinterInfo.bin
+configFiles/SQLServerList.xml
+configFiles/XCaselle.Opts.Org.DemoPrerelease.xml
+Coverage/*
+InstallUtil.InstallLog
+#MasterSln/Caselle.Ar0/Caselle.Ar0.MVC/Properties/licenses.licx
+#MasterSln/Caselle.Cm0/Caselle.Cm0.MVC/Properties/licenses.licx
+MasterSln/Caselle.Cows/Caselle.Cows.Service/App.config
+MasterSln/Caselle.Cows/Caselle.Cows.Service/Config/App.config
+MasterSln/Caselle.Cows/Caselle.Cows.Service/*.cows.config
+MasterSln/Caselle.*/Caselle.*.Cows.Service/App.config
+MasterSln/Caselle.*/Caselle.*.Cows.Service/*.Cows.config
+MasterSln/Caselle.*/Caselle.*.Cows.Service/Config/App.config
+MasterSln/Caselle.*/Caselle.Cows.Service/*.cows.config
+Smtp.config
+
+# --- Ignore Advanced Installer Build Output ---
+CaselleConnect-cache
+
+# -- Ignore globs --
+syntax: glob
+
+*.back.aip
+
+*.datasource
+*.disco
+*.docstates
+*.log
+*.orig
+*.pdb
+*.suo
+*.svcinfo
+*.svclog
+*.user
+*.wsdl
+*.xsd
+!MasterSln/**/*.xsd
+!lib/XpressBillPay/*.xsd
+!lib/DevExpressWPF/*
+
+# --- NHibernate 4.1.1 Stuff ---
+!lib/NHibernate.4.1.1/**
+!lib/NHibernate.Validator/**
+
+*.ldb
+*.iml
+.vs
+bin/
+MasterSln/**/bin
+MasterSln/**/Bin
+!lib/**/Bin
+!lib/**/bin
+!lib/nunit/*exe
+!lib/OtherAdditionalFiles/*
+!lib/System.Reactive.3.1.1/*
+!lib/Asp.Net.Web.Api.Client/*
+
+Utilities/**/bin
+
+Utilities/**/packages
+
+packages/*
+Caselle.Aa0.WebServices.Publish.xml
+Caselle/*
+changed files.ps1
+changedFiles.ps1
+changedfiles.ps1
+ChangedFiles.vbs
+configFiles/Caselle.*.Form.Variables.mdb
+configFiles/Caselle.*.xml
+configFiles/*.Dat
+doc/*
+my build.ps1
+mybuild.proj
+obj
+PubWebServices/*
+TestResult.xml
+TestResults
+MasterSln/Caselle.Srv/Caselle.Srv.Service/Config/Smtp.Config
+Caselle.exe.lnk
+pingme.txt
+configFiles/database.yml
+configFiles/Caselle, Inc. (In-house use only)License.xml
+configFiles/* License.xml
+Docs/~$selle C# UI Standards.docx
+configFiles/*
+ConfigFiles
+!MasterSln/**/configFiles/*
+
+**/.idea
+MasterSln/AppSln/AppRptSln/Masters/Caselle.Ap0.Form.Variables.mdb
+MasterSln\Caselle.Um0\Caselle.Um0.Cows.Service\Copy of App.config
+MasterSln/Caselle.Cows/Caselle.Cows.Service/Resources/App.example.config
+Caselle
