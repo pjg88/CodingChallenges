@@ -45,11 +45,7 @@ namespace BowlingChallenge
             else EnterRoll(roll);
           }
 
-          foreach (Player score in _players)
-          {
-            Console.WriteLine(score.ToString());
-          }
-          Console.WriteLine();
+          PrintScores();
         }
         else
         {
@@ -119,7 +115,7 @@ namespace BowlingChallenge
       foreach (string roll in rolls)
       {
         EnterRoll(Convert.ToInt32(roll));
-        Console.WriteLine(_players[playerTurn].ToString());
+        PrintScores();
       }
     }
 
@@ -138,6 +134,15 @@ namespace BowlingChallenge
     {
       if (playerTurn >= _players.Count - 1) playerTurn = 0;
       else playerTurn++;
+    }
+
+    private void PrintScores()
+    {
+      foreach (Player score in _players)
+      {
+        Console.WriteLine(score.ToString());
+      }
+      Console.WriteLine();
     }
   }
 }
