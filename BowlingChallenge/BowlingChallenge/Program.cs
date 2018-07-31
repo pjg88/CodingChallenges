@@ -10,6 +10,8 @@ namespace BowlingChallenge
   {
     static void Main(string[] args)
     {
+      GameManager gm = new GameManager(args);
+      Console.ReadLine();
     }
   }
 }
